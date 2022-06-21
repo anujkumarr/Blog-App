@@ -1,0 +1,29 @@
+.header {
+  padding: 1.8rem 0;
+  background-color: white;
+  nav {
+    align-items: center;
+  }
+  li {
+    margin-left: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    color: rgb(122, 119, 119);
+    font-family: monospace;
+  }
+}
+
+.feedNav {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgb(59, 59, 59);
+
+  li {
+    padding-left: 1rem;
+    color: black;
+  }
+  .active {
+    color: green;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,107 @@
+.form-control {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 0.2rem;
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+  input {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    height: 3rem;
+    padding-left: 0.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0.2rem;
+    border: none;
+    border: 1px solid rgb(39, 39, 39);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  }
+  textarea {
+    width: 100%;
+    padding-left: 0.3rem;
+    border-radius: 0.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgba(27, 27, 27, 0.18) 0px 2px 4px;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+}
+
+.publish-btn {
+  background-color: rgb(35, 192, 179);
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Farfetch Basis', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.publish-btn:hover,
+.publish-btn:focus {
+  opacity: 0.95;
+  background-color: rgb(99, 253, 158);
+  color: black;
+}
+.logout {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: end;
+  button {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(97, 115, 148);
+    color: white;
+    font-family: 'Farfetch Basis', 'Helvetica Neue', Arial, sans-serif;
+  }
+}
+
+.login-btn {
+  margin-top: 1rem;
+  text-align: end;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(97, 115, 148);
+  color: white;
+  font-family: 'Farfetch Basis', 'Helvetica Neue', Arial, sans-serif;
+}
+.signin {
+  h2 {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+  p {
+    color: rgb(153, 84, 84);
+  }
+}
+.block {
+  display: inline-block;
+}
+.color-red {
+  color: rgb(185, 64, 64);
+}
